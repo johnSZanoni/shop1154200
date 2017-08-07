@@ -3,7 +3,7 @@
     test
     <hello></hello>
   </div>
-  dit is een directe pdate
+  dit is een directe 
 </template>
 
 <script>
