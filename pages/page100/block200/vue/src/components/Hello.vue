@@ -21,25 +21,13 @@
 </template>
 
 <script>
-
 export default {
-
-
-
-
   name: 'hello',
-
-
-
-
-  data: function () {
-
+  data : function() {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
   }
-
-
 }
 </script>
 
