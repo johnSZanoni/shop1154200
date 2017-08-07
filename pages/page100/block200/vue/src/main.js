@@ -11,3 +11,9 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+/* create 2 watchers */
+new Vue({
+  el: '#app2',
+  template: '<App/>',
+  components: { App }
+})
