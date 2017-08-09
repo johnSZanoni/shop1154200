@@ -2,6 +2,8 @@
   <div id="app">
   this is a test using the clone command
 now push it back
+
+using eclipse
     <version></version>
     <hello></hello>
   </div>
