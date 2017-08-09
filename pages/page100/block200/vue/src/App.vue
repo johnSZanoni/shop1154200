@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  this is a test
     <version></version>
     <hello></hello>
   </div>
