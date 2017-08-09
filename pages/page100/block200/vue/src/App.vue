@@ -1,6 +1,7 @@
 <template>
   <div id="app">
   this is a test using the clone command
+now push it back
     <version></version>
     <hello></hello>
   </div>
