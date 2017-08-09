@@ -3,7 +3,9 @@
   this is a test using the clone command
 now push it back
 
-using eclipse
+using eclipse!
+
+done
     <version></version>
     <hello></hello>
   </div>
