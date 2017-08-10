@@ -11,6 +11,7 @@
 .myshp_button{
 	display:inline-block;
 	white-space:nowrap;
+	color: #ff22ff;
 }
 
 .myshp_top_menu ul li a, .myshp_top_menu ul li a:link, .myshp_top_menu ul li a:visited, .myshp_top_menu ul li a:active{
