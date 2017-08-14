@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+        <title>Shipping Method Template</title>
+        <meta content="myshop-meta:keywords" name="keywords"/>
+        <meta content="myshop-meta:description" name="description"/>
+        <meta content="author" name="MijnWinkel, Checkout Shipping Inc VAT, $Revision: 11601 $, $Date: 2012-02-15 08:21:49 -0300 (Thu, 01 Apr 2010) $" />
+    </head>
+    <body>
+        <div class="myshp_checkout myshp_checkout_shipping">
+            
+			<div class="myshp_checkout_container">
+				
+				<!-- Begin - Checkout Header -->
+				<h2>
+	                <span style="myshop-resource:button.deliverymethod">
+	                    Leverwijze
+	                </span>
+	            </h2>
+	            <!-- End - Checkout Header -->
+	            
+				<!-- Begin - Checkout Breadcrum -->
+				<div class="myshp_checkout_breadcrumb">
+	                <ul>
+	                    <li style="myshop-has:checkout-part-basket" class="myshp_checkout_breadcrumb_active myshp_checkout_breadcrumb_preactive"> 
+	                        <a href="javascript:void(0)" style="myshop-resource:basket" class="ui-btn-active ui-state-persist" data-icon="check" data-iconpos="top">Shopping cart</a>
+							<span></span>
+	                    </li>
+	                    <li class="myshp_checkout_breadcrumb_active myshp_checkout_breadcrumb_preactive">
+	                        <a href="javascript:void(0)" style="myshop-resource:title.address" class="ui-btn-active ui-state-persist" data-icon="check" data-iconpos="top">Address</a>
+							<span></span>
+	                    </li>
+	                    <li style="myshop-has:checkout-part-shipping" class="myshp_checkout_breadcrumb_active">
+	                        <a href="javascript:void(0)" style="myshop-resource:button.deliverymethod" class="ui-btn-active ui-state-persist" data-icon="check" data-iconpos="top">Shipping</a>
+							<span></span>
+	                    </li>
+	                    <li style="myshop-has:checkout-part-payment-method">
+	                        <a href="javascript:void(0)" style="myshop-resource:button.paymentmethod" data-icon="delete" data-iconpos="top">Payment</a>
+	                    </li>
+	                    <li style="myshop-has:checkout-part-approval">
+	                        <a href="javascript:void(0)" style="myshop-resource:title.approval" data-icon="delete" data-iconpos="top">Approval</a>
+	                    </li>
+	                    <li>
+	                        <a href="javascript:void(0)" style="myshop-resource:button.placeorder" data-icon="delete" data-iconpos="top">Confirmation</a>
+	                    </li>
+	                </ul>
+	            </div>
+				<!-- End - Checkout Breadcrum -->
+				
+				<!-- Begin - Control Buttons -->
+	            <div class="myshp_control_buttons">
+	                <a href="#" class="myshp_button myshp_button_prev" style="myshop-action:previous-page" data-role="button" data-icon="arrow-l">
+                    	<span>
+                    		<span class="myshp_button_icon">&laquo;</span>
+                            <span style="myshop-resource:button.previous.step">
+                                vorige stap
+                            </span>
+						</span>
+                    </a>
+					<a href="#" class="myshp_button myshp_button_nextstep" style="myshop-action:next-page" data-role="button" data-icon="arrow-r" data-iconpos="right">
+	                    <span>
+							<span style="myshop-resource:button.nextstep">
+		                        volgende stap
+		                    </span>
+							<span class="myshp_button_icon">&raquo;</span>
+						</span>
+	                </a>
+	                <div class="clear">&nbsp;</div>
+	            </div>
+				<!-- End - Control Buttons -->
+				
+				<!-- Begin - Checkout Info -->
+	            <div class="myshp_checkout_info">
+	                <span style="myshop-resource:shippingcost.capital">Verzendkosten</span>&nbsp;<span style="myshop-resource:shippingto">levering in</span>&nbsp;<span style="myshop-value:country">Nederland</span>
+	            </div>
+				<!-- End - Checkout Info -->
+				
+				<!-- Begin - Checkout Shipping Data -->
+	            <div class="myshp_block myshp_checkout_products">
+	                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+	                    <tr class="myshp_basket_products_header">
+	                        <th>
+	                            <span style="myshop-resource:shipping">
+	                                Kies hier uw verzendmethode
+	                            </span>
+	                        </th>
+	                        <th class="myshp_checkout_shippingcost">
+	                            <span style="myshop-resource:shippingcost">
+	                                Verzendkosten
+	                            </span>
+	                        </th>
+	                    </tr>
+	                    <tr style="myshop-repeat:shipping-cost-list" class="myshp_basket_product">
+	                        <td>
+	                            <span style="myshop-value:control">
+	                                o
+	                            </span>
+	                            <label style="myshop-value:label;">
+	                                &nbsp;
+	                            </label>
+	                            <p style="myshop-value:memo">
+	                                &nbsp;
+	                            </p>
+	                        </td>
+	                        <td class="myshp_checkout_shippingcost">
+	                            <span style="myshop-value:inc-vat-price-formatted">
+	                                &nbsp;
+	                            </span>
+	                        </td>
+	                    </tr>
+	                </table>
+	            </div>
+				<!-- End - Checkout Shipping Data -->
+				
+				<!-- Begin - Checkout Shipping Memo -->
+	            <div class="myshp_checkout_info">
+	                <span style="myshop-value:memo">&nbsp;</span>
+	            </div>
+				<!-- End - Checkout Shipping Memo -->
+				
+				<!-- Begin - Control Buttons -->
+	            <div class="myshp_control_buttons">
+	                <a href="#" class="myshp_button myshp_button_prev" style="myshop-action:previous-page" data-role="button" data-icon="arrow-l">
+						<span>
+							<span class="myshp_button_icon">&laquo;</span>
+							<span style="myshop-resource:button.previous.step">
+		                        vorige stap
+		                    </span>
+						</span>
+	                </a>
+	                <a href="#" class="myshp_button myshp_button_nextstep" style="myshop-action:next-page" data-role="button" data-icon="arrow-r" data-iconpos="right">
+	                    <span>
+							<span style="myshop-resource:button.nextstep">
+		                        volgende stap
+		                    </span>
+							<span class="myshp_button_icon">&raquo;</span>
+						</span>
+	                </a>
+	                <div class="clear">&nbsp;</div>
+	            </div>
+				<!-- End - Control Buttons -->
+			
+			</div>
+		
+            <!-- Begin - MijnWinkel PoweredBy Block -->
+            <div id="myshp_checkout_powered-by" style="myshop-default:powered-by">
+                &nbsp;
+            </div>
+            <!-- End - MijnWinkel PoweredBy Block -->
+			
+        </div>
+    </body>
+</html>
