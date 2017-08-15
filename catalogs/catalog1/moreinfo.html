@@ -4,7 +4,7 @@
     	<meta property="og:title" content="myshop-meta:product-title" />
 		<meta property="og:image" content="myshop-meta:product-image" />
         <style style="myshop-block:style-productlist-moreinfo" type="text/css">
-			
+
         </style>
         <style style="myshop-block:style-productlist-related">
 			.myshp_basket_related_product_image_container, .myshp_basket_related_product_image{
@@ -22,14 +22,14 @@
 			}
         </style>
 		<style>
-			
+
 		</style>
 		<script type="text/javascript">
-           
+
 			 $(window).load(function(){
 			 	var gallery_width = $('.myshp_info_image_large').width()+"px";
-				
-				/* Set Gallery Init 
+
+				/* Set Gallery Init
 				$('.myshp_info_image_large img').each(function(){
 				    $(this).width(($(this).parents('.myshp_info_image_large').width()));
 				});
@@ -37,8 +37,8 @@
 				$('.myshp_info_extra_images_thumbs a').click(function(){
 					$('.myshp_info_image_large').cycle($(this).index());
 				});
-				
-                $('.myshp_info_image_large').cycle({ 
+
+                $('.myshp_info_image_large').cycle({
                     fx: 'fade',
 		            prev: '.myshp_gallery_navigation_prev',
 					next: '.myshp_gallery_navigation_next',
@@ -57,7 +57,7 @@
 					before: function() {
 			            $('.myshp_gallery_navigation_caption').html($(this).attr('alt'));
 			        },
-					
+
 					after: function(currSlideElement, nextSlideElement, options, forwardFlag){
 						currentSlide = $('.activeSlide').html();
 					    if(!currentSlide) currentSlide = "1";
@@ -66,16 +66,16 @@
 						if($.fn.lightBox){
 							$('a.myshp_gallery_navigation_max').lightBox();
 						}
-                    }		
+                    }
                 });
-                
+
                 /*$('.myshp_gallery_navigation_next, .myshp_gallery_navigation_prev').css('top', $('.myshp_info_image_large').height()/2-15);*/
-                
+
 				/* Set Begining Button */
-				$( ".myshp_gallery_navigation_beginning" ).click(function() { 
+				$( ".myshp_gallery_navigation_beginning" ).click(function() {
 				    $('.myshp_info_image_large').cycle(0);
 				});
-				
+
 				/* Set Play and Pause Button */
 				$( ".myshp_gallery_play" ).click(function() {
 					if ( $(this).find('.ui-button-text').text() === "play" ) {
@@ -89,7 +89,7 @@
 					}
 				});
 				/* Set End Button */
-				$( ".myshp_gallery_navigation_end" ).click(function() { 
+				$( ".myshp_gallery_navigation_end" ).click(function() {
 				    $('.myshp_info_image_large').cycle($('.myshp_info_image_large').size()-1);
 				});
 				function onAfter(curr, next, opts) {
@@ -106,7 +106,7 @@
         </script>
     </head>
     <body>
-    	WWWWWWW
+    	ATOM VERSION OF THE MORE INFO PAGE
         <!-- Begin - Product list Search block -->
 		<table width="100%"><tr><td>
         <div style="myshop-has:searchblock;">
@@ -116,10 +116,10 @@
                     	<table width="100%">
                     		<tr>
                     			<td>
-                    				<label><span style="myshop-resource:allproducts">Alle producten</span></label>			
+                    				<label><span style="myshop-resource:allproducts">Alle producten</span></label>
                     			</td>
 								<td>
-									<span style="myshop-search-field:control-global;"/>			
+									<span style="myshop-search-field:control-global;"/>
 								</td>
 								<td>
 									<a style="myshop-action:search;" class="myshp_button myshp_button_search" data-role="button" data-icon="search" data-iconpos="right">
@@ -128,7 +128,7 @@
 					                            Search
 					                        </span>
 										</span>
-				                    </a>			
+				                    </a>
 								</td>
                     		</tr>
                     	</table>
@@ -143,10 +143,10 @@
 							<table style="myshop-not-has:search-field-max;" width="100%">
 	                            <tr>
 	                            	<td>
-	                            	<label><span style="myshop-search-field:label"></span>:</label>	
+	                            	<label><span style="myshop-search-field:label"></span>:</label>
 	                            	</td>
 	                                <td>
-	                            		<span style="myshop-search-field:control"></span>    	
+	                            		<span style="myshop-search-field:control"></span>
 	                                </td>
 	                            </tr>
 	                        </table>
@@ -161,7 +161,7 @@
 			                                    <span style="myshop-resource:from;">
 			                                        van
 			                                    </span>:
-											</label>	
+											</label>
 	                                	</td>
 	                                    <td>
 	                                    	<input size="8" style="myshop-search-field:control"/>
@@ -172,7 +172,7 @@
 			                                    <span style="myshop-resource:to;">
 			                                        t/m
 			                                    </span>:
-											</label>	
+											</label>
 	                                	</td>
 	                                    <td>
 	                                    	<input size="8" style="myshop-search-field:control-max"/>
@@ -186,7 +186,7 @@
 						<fieldset>
 							<table width="100%">
 								<tr>
-									<td>	
+									<td>
 										<label>
 					                        <span style="myshop-resource:allproducts">
 					                            Alle producten
@@ -203,7 +203,7 @@
 						                            Search
 						                        </span>
 											</span>
-					                    </a>		
+					                    </a>
 									</td>
 								</tr>
 							</table>
@@ -215,14 +215,14 @@
         </div>
 		</td></tr></table>
 		<!-- End - Product list Search block -->
-		
+
         <div class="clear"></div>
         <!-- Check if there are products -->
-		
+
 		<!--
         <div>
         -->
-		
+
 		<!-- Navigation bar -->
         <div class="myshp_info_navigation">
             <!-- Back to overview button -->
@@ -298,14 +298,14 @@
 							<div class="myshp_gallery_navigation_pager_total"></div>
 							<div class="myshp_gallery_navigation_caption"></div>
 							<div class="myshp_gallery_navigation_controls">
-								
+
 								<a class="myshp_gallery_navigation_prev ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" href="javascript:void(0)" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-inline="true" shape="rect" role="button" aria-disabled="false" title="Previous">
 									<span class="ui-button-icon-primary ui-icon ui-icon-seek-prev"></span>
 									<span class="ui-button-text">
 										<span class="myshp_gallery_navigation_icon">Previous</span>
-									</span>								
+									</span>
 								</a>
-								
+
 								<a class="myshp_gallery_play ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" href="javascript:void(0)" data-role="button" data-iconpos="notext" data-inline="true" data-icon="play" shape="rect" role="button" aria-disabled="false" title="pause">
 									<span class="ui-button-icon-primary ui-icon ui-icon-pause"></span>
 									<span class="ui-button-text">pause</span>
@@ -316,7 +316,7 @@
 										<span class="myshp_gallery_navigation_icon">Next</span>
 									</span>
 								</a>
-								
+
 							</div>
 							<div class="clear"></div>
                         </div>
@@ -330,7 +330,7 @@
 						</div>
 					</span>
 				</div>
-				
+
 				<!-- Productfields -->
                 <div class="myshp_info_features">
                     <table width="100%">
@@ -456,10 +456,10 @@
                     </table>
                     <!-- Order button -->
                 </div>
-						
+
                 <div class="clear"></div>
                 <div class="myshp_info_description_long" style="myshop-product:description-long;" itemprop="myshop-product:itemprop-description-long"></div>
-				
+
 				<div style="myshop-has-product-value:monthly-costs-formatted">*&#160;
 					<span style="myshop-resource:klarna.usingklarna">Bij gebruik van</span>&#160;
 					<span style="myshop-test:{$Language}=='de'">
@@ -470,9 +470,9 @@
 					</span>
 					<br/><br/>
 				</div>
-				
+
                 <div class="clear"></div>
-				
+
                 <!-- Begin - Related Products -->
                 <div class="myshp_basket_related" style="myshop-block:related-products">
                     <h3>
@@ -497,7 +497,7 @@
                                 <div class="myshp_basket_related_features">
                                     <table width="100%">
                                         <span style="myshop-repeat:product-features">
-                                        	
+
                                             <tr style="myshop-has-value:feature">
                                                 <td class="myshp_basket_related_features_label">
                                                     <strong>
@@ -539,7 +539,7 @@
                                             </span>
                                         </span>
                                     </table>
-									
+
                                     <!-- Begin - Control Buttons -->
                                     <div class="myshp_control_buttons">
                                         <a class="myshp_button myshp_button_moreinfo" style="myshop-action:moreinfo;" data-role="button">
@@ -568,7 +568,7 @@
                                     	</div>
                                     </div>
                                     <!-- End - Control Buttons -->
-									
+
                                 </div>
                             </td>
                         </tr>
@@ -580,13 +580,13 @@
             <!-- Productlist block end -->
         </div>
         <div class="clear"></div>
-		
+
 		<!-- Begin - MijnWinkel PoweredBy Block -->
         <div class="myshp_info_footer_bottom">
             <div class="myshop_info_footer" style="myshop-default:powered-by">
             </div>
         </div>
 		<!-- End - MijnWinkel PoweredBy Block -->
-		
+
     </body>
 </html>
